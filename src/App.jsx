@@ -1,13 +1,12 @@
 import { useState } from 'react'
+import Nav from './Nav'
 
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1 className='display-3'>hello!</h1>
-    </>
+          <Nav />
   )
 }
 
