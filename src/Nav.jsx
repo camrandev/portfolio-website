@@ -13,6 +13,7 @@ function Nav() {
   //TODO:hamburger at med screen
   //TODO:hide completely at small screen
   //TODO:make navbar text stand out more
+  //TODO:scrollspy!
   return (
     <nav className="navbar navbar-expand-sm fixed-top">
       <div className="container-fluid">
