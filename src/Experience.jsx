@@ -21,7 +21,7 @@ function Experience() {
   return (
     <div>
       <h2>Experience</h2>
-      <div className="d-flex row justify-content-center">
+      <div className="d-flex row justify-content-center col-10 mx-auto">
         {renderJobCards()}
       </div>
     </div>

@@ -15,7 +15,7 @@ function Nav() {
   //TODO:make navbar text stand out more
   //TODO:scrollspy!
   return (
-    <nav className="navbar navbar-expand-sm fixed-top">
+    <nav className="navbar navbar-expand-sm fixed-top bg-primary">
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
@@ -35,7 +35,7 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Connect</a>
+              <a className="nav-link" href="#">Resume</a>
             </li>
           </ul>
 

@@ -33,7 +33,7 @@ function Introduction () {
 
   //TODO:add more friendly looking animation
   return (
-    <div className='d-flex'>
+    <div className='d-flex align-items-center'>
       <div id="showcase" className="react-reveal" style={style}><div className="showcase-content"><h1>Hello, I'm Camran</h1><h2> I am <span className="txt-rotate">
       <span>{textArray[textIndex]}</span>
     </span></h2></div></div>
