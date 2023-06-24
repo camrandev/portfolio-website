@@ -37,7 +37,7 @@ function Projects() {
   }
 
   return (
-    <div >
+    <div id="projects">
       <h1>Projects</h1>
       <div className="d-flex justify-content-evenly">
 

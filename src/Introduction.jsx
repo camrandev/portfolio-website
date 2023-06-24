@@ -33,12 +33,12 @@ function Introduction () {
 
   //TODO:add more friendly looking animation
   return (
-    <div className='d-flex align-items-center'>
+    <div id="intro"className='d-flex align-items-center mt-100'>
       <div id="showcase" className="react-reveal" style={style}><div className="showcase-content"><h1>Hello, I'm Camran</h1><h2> I am <span className="txt-rotate">
       <span>{textArray[textIndex]}</span>
     </span></h2></div></div>
-    <div className="col-md-6 mx-auto">
-      <img className="img-fluid" src={headshot} alt="" />
+    <div className="col-md-6 mx-auto rounded-5">
+      <img className="img-fluid rounded-circle" src={headshot} alt="" />
     </div>
     </div>
   )

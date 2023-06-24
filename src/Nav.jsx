@@ -21,18 +21,18 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#intro">
                 Introduction
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Projects
+              <a className="nav-link" href="#experience">
+                Experience
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Experience
+              <a className="nav-link" href="#projects">
+                Projects
               </a>
             </li>
             <li className="nav-item">
