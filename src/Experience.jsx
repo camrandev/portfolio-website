@@ -1,26 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
+import ExperienceCard from "./ExperienceCard";
 
- /** DESCRIPTION
-*
-* Props:
-*
-* State:
-*
-* PARENT -> Experience -> {CHILDREN}
-*/
+/** DESCRIPTION
+ *
+ * Props:
+ *
+ * State:
+ *
+ * PARENT -> Experience -> {CHILDREN}
+ */
 
-function Experience () {
-  const [ , ] = useState( );
-
-  useEffect(() => {
-
-  }, [])
+//TODO:add experience data source to generate experience Cards from
+function Experience() {
+  //NOTE:dummy data, review
+  const jobs = [1, 2, 3, 4];
+  function renderJobCards() {
+    return jobs.map((job) => <ExperienceCard key={job.name} job={job} />);
+  }
 
   return (
     <div>
-      <h3>Experience</h3>
+      <h2>Experience</h2>
+      <div className="d-flex row justify-content-center">
+        {renderJobCards()}
+      </div>
     </div>
-  )
+  );
 }
 
 export default Experience;

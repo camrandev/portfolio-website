@@ -29,6 +29,7 @@ function Projects() {
   //state to hold project objects, so I can easily swap them out -> dont need a DB, as this is just links
   const [projects, setProjects] = useState(data);
 
+  //TODO:factor this out to be reusable + take a component as an argument
   function renderProjectCards() {
     return projects.map(project => (
       <ProjectCard key={project.name} project={project} />
