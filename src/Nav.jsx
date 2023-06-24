@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import resume from './assets/resume.pdf'
 
 /** DESCRIPTION
  *
@@ -35,7 +36,7 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Resume</a>
+              <a className="nav-link" href={resume}>Resume</a>
             </li>
           </ul>
 
