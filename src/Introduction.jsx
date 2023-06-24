@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react'
-import headshot from './assets/headshot.jpg'
+import React, { useState, useEffect } from "react";
+import headshot from "./assets/headshot.jpg";
 
- /** DESCRIPTION
-*
-* Props:
-*
-* State:
-*
-* PARENT -> Introduction -> {CHILDREN}
-*/
+/** DESCRIPTION
+ *
+ * Props:
+ *
+ * State:
+ *
+ * PARENT -> Introduction -> {CHILDREN}
+ */
 
-function Introduction () {
+function Introduction() {
   const [textIndex, setTextIndex] = useState(0);
   const textArray = ["a Software Engineer", "a Runner", "lorem ipsum"];
 
@@ -33,15 +33,24 @@ function Introduction () {
 
   //TODO:add more friendly looking animation
   return (
-    <div id="intro"className='d-flex align-items-center mt-100'>
-      <div id="showcase" className="react-reveal" style={style}><div className="showcase-content"><h1>Hello, I'm Camran</h1><h2> I am <span className="txt-rotate">
-      <span>{textArray[textIndex]}</span>
-    </span></h2></div></div>
-    <div className="col-md-6 mx-auto rounded-5">
-      <img className="img-fluid rounded-circle" src={headshot} alt="" />
+    <div id="intro" className="d-flex align-items-center justify-content-center">
+      <div id="showcase" className="react-reveal me-3" style={style}>
+        <div className="showcase-content">
+          <h1>Hello, I'm Camran</h1>
+          <h2>
+            {" "}
+            I am{" "}
+            <span className="txt-rotate">
+              <span>{textArray[textIndex]}</span>
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div className="h-25 w-25 ms-3">
+        <img className="img-fluid rounded-5" src={headshot} alt="" />
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
 export default Introduction;
