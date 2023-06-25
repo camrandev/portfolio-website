@@ -12,16 +12,16 @@ import placeholder from "./assets/placeholder.jpg";
 
 function ExperienceCard() {
   return (
-    <div className="card mb-3" style={{ "max-width": "540px" }}>
+    <div className="card mb-3 col-8" style={{ "max-width": "760px" }}>
       <div className="row g-0">
-        <div className="col-md-2">
+        <div className="col-4 col-md-2">
           <img
             src={placeholder}
-            className="img-fluid rounded-start"
+            className="img-fluid img-thumbnail rounded-start"
             alt="..."
           />
         </div>
-        <div className="col-md-10">
+        <div className="col-6 text-start">
           <div className="card-body">
             <h5 className="card-title">Job Title</h5>
             <p className="card-text">resume bullets/highlight</p>
