@@ -33,7 +33,7 @@ function Introduction() {
 
   //TODO:add more friendly looking animation
   return (
-    <div id="intro" className="d-flex align-items-center justify-content-center">
+    <div id="intro" className="d-flex align-items-center justify-content-center stack-on-small">
       <div id="showcase" className="react-reveal me-3" style={style}>
         <div className="showcase-content">
           <h1>Hello, I'm Camran</h1>
