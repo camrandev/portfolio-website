@@ -12,7 +12,7 @@ import placeholder from "./assets/placeholder.jpg";
 
 function ExperienceCard() {
   return (
-    <div className="d-flex column col-8 mx-auto border border-primary mb-5">
+    <div className="col-8 mx-auto border border-primary mb-5">
       <div className="col-2 border border-primary hide-on-small">
         <img
           src={placeholder}

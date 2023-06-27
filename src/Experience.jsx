@@ -20,7 +20,7 @@ function Experience() {
 
   return (
     <div id="experience">
-      <h2>Experience</h2>
+      <h2 className="text-center">Experience</h2>
       <div className="mx-auto">
         {renderJobCards()}
       </div>

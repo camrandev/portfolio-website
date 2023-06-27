@@ -33,8 +33,8 @@ function Introduction() {
 
   //TODO:add more friendly looking animation
   return (
-    <div id="intro" className="d-flex align-items-center justify-content-center stack-on-small">
-      <div id="showcase" className="react-reveal me-3" style={style}>
+    <div id="intro" className="stack-on-small text-center border border-primary">
+      <div id="showcase" className="react-reveal mx-0" style={style}>
         <div className="showcase-content">
           <h1>Hello, I'm Camran</h1>
           <h2>
@@ -46,9 +46,9 @@ function Introduction() {
           </h2>
         </div>
       </div>
-      <div className="h-25 w-25 ms-3">
+      {/* <div className="h-25 w-25 ms-3">
         <img className="img-fluid rounded-5" src={headshot} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }
