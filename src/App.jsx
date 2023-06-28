@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   //TODO:add max width sizing and adjust everything accordingly to play nice with that.
   return (
-    <div style={{"padding-top":"3rem"}}>
+    <div>
       <Nav />
       <Introduction />
       <Experience />

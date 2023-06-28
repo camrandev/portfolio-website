@@ -16,7 +16,7 @@ function Nav() {
   //TODO:make navbar text stand out more
   //TODO:scrollspy!
   return (
-    <nav className="navbar navbar-expand-sm fixed-top bg-primary">
+    <nav className="navbar navbar-expand-md bg-primary hide-on-small">
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
