@@ -16,7 +16,14 @@
 .stack-on-small {
   flex-direction: column;
 }
+#root {
+  min-width: 375px;
+  max-width: 1200px;
+}
 
+/* .job-card{
+ width: 100%;
+} */
 
 @media screen and (min-width: 769px) {
   .hide-on-small {
@@ -25,5 +32,9 @@
 
   .stack-on-small {
     flex-direction: row;
+  }
+
+  #root {
+    margin: 0 auto;
   }
 }

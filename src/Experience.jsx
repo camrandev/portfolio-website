@@ -21,7 +21,7 @@ function Experience() {
   return (
     <div id="experience">
       <h2 className="text-center">Experience</h2>
-      <div className="mx-auto">
+      <div>
         {renderJobCards()}
       </div>
     </div>
